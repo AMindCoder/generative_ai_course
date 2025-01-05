@@ -2,19 +2,6 @@
 
 This repository contains hands-on labs for learning prompt engineering techniques with Large Language Models (LLMs).
 
-## Project Structure
-
-```
-generative_ai_course/
-├── config.py                # Azure OpenAI configuration and utilities
-├── requirements.txt         # Project dependencies
-├── week1_basics/           # Introduction to basic prompting
-│   └── zero_shot_prompting.py
-├── week2_advanced/         # Advanced prompting techniques
-│   └── few_shot_prompting.py
-└── week3_advanced/         # Complex reasoning and chain of thought
-    └── chain_of_thought.py
-```
 
 ## Setup
 
@@ -31,8 +18,9 @@ pip install -r requirements.txt
 
 3. Create a `.env` file with your Azure OpenAI credentials:
 ```
-ENDPOINT_URL=your_endpoint_url
-DEPLOYMENT_NAME=your_deployment_name
+AZURE_OPENAI_API_KEY=your_endpoint_url
+AZURE_OPENAI_ENDPOINT=your_api_key
+
 ```
 
 ## Weekly Labs
