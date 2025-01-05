@@ -1,0 +1,5 @@
+.env
+course_env/
+_pycache__/
+*.pyc
+__pycache__
