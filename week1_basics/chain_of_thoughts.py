@@ -26,5 +26,5 @@ def chain_of_thought_example():
 
 if __name__ == "__main__":
     from dotenv import load_dotenv, find_dotenv
-    _ = load_dotenv(find_dotenv())
+    _ = load_dotenv(override=True)
     chain_of_thought_example()

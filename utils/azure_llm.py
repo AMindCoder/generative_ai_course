@@ -20,6 +20,7 @@ def get_answer(system_prompt, user_prompt):
         {
             "role": "user",
             "content": user_prompt
+            
         }
     ]
 
